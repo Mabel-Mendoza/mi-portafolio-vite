@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Portafolio</title>
+</head>
+<body>
+  <header>
+      <div class="logo">Mi Portafolio</div>
+      <nav>
+          <ul>
+              <li><a href="#about">Sobre mí</a></li>
+              <li><a href="#projects">Proyectos</a></li>
+              <li><a href="#contact">Contacto</a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <section class="hero">
+      <div class="hero-text">
+          <h1>Bienvenido a mis proyectos de <span>Desarrollo Web</span></h1>
+          <p>Explora mis proyectos y el futuro que podemos construir con la tecnología.</p>
+      </div>
+  </section>
+
+  <section id="about" class="about">
+      <img src="./src/img/miperfil.jpg" alt="Foto de perfil" class="profile-pic">
+      <div class="bio">
+          <h2>Sobre mí</h2>
+          <p>¡Hola! Mi nombre es Mabel Mendoza, tengo 20 años y soy estudiante de Ingeniería en Ciencias de la Computación en la Universidad Católica de Honduras, 
+              apasionada por el <b>desarrollo de software</b> y las tecnologías futuristas.</p>
+      </div>
+  </section>
+
+  <section id="projects" class="projects">
+      <h2>Mis Proyectos más recientes</h2>
+      <p class="projects-instruction">Haz clic en la imagen para visitar la página web del proyecto.</p>
+      <div class="carousel">
+          <button class="prev">⟨</button>
+          <div class="carousel-track">
+              <a href="https://mabel-mendoza.github.io/Quimica-Proyecto1/" target="_blank" class="slide">
+                  <img src="./src/img/proyecto1.png" alt="Proyecto 1">
+              </a>
+              <a href="https://mabel-mendoza.github.io/Vampiros-Proyecto2/" target="_blank" class="slide">
+                  <img src="./src/img/vampiros.png" alt="Proyecto 2">
+              </a>
+          </div>
+          <button class="next">⟩</button>
+      </div>
+  </section>
+
+  <section id="contact" class="contact">
+      <h2>Contacto</h2>
+      <p>Si deseas trabajar conmigo o conocer más de mis proyectos, puedes escribirme a: anaimabel39@gmail.com</p>
+      <a href="mailto:anaimabel39@gmail.com?subject=Contacto%20desde%20tu%20Portafolio"
+      class="contact-btn">📧 Enviar correo</a>
+  </section>
+
+  <footer>
+      <p>© 2025 - Mi Portafolio | Mabel Mendoza</p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
+
