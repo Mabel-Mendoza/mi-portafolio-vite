@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite'
-import purgecss from 'vite-plugin-purgecss'
+//import purgecss from 'vite-plugin-purgecss'
 
 export default defineConfig({
-  plugins: [purgecss()],
+  base: './',
+ // plugins: [purgecss()],
   css: {
     preprocessorOptions: {
       less: {}

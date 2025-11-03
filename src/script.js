@@ -25,3 +25,5 @@ document.addEventListener("DOMContentLoaded", () => {
   // Ajustar el carrusel si cambia el tamaño de la ventana
   window.addEventListener("resize", updateSlidePosition);
 });
+
+

@@ -1,5 +1,7 @@
 import './style.less'
 import './script.js'
+import './style.less'
+
 
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
